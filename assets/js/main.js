@@ -1,0 +1,1 @@
+document.addEventListener("click",(function(t){if(t.target.classList.contains("gallery-item")){const e=t.target.getAttribute("src");document.querySelector(".modal-img").src=e;new bootstrap.Modal(document.getElementById("gallery-modal")).show()}}));
